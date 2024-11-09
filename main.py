@@ -20,7 +20,7 @@ history = model_trainer.train_model(model, train_ds, val_ds, epochs=epochs)
 
 model_trainer.evaluate_model(model, val_ds)
 
-image_path = 'handwritten_digit_3.png'
+image_path = 'handwritten_6.png'
 
 predicted_class = predict_image(model, image_path)
 print(f"The model predicts this digit as: {predicted_class}")
